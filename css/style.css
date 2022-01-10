@@ -45,6 +45,7 @@
     -webkit-box-shadow: 5px 9px 20px 5px rgba(0.20, 0.20, 0.20, 0);
 }
 
+@media only screen and (min-width: 641px){
 .two-container {
 
     padding-left: 50px;
@@ -53,6 +54,10 @@
     padding-bottom: 110px;
 
 }
+
+}
+
+
 
 
 
@@ -286,7 +291,8 @@
     margin-bottom: 20px;
 }
 
-@media only screen and (min-width:640px) {
+
+@media only screen and (min-width: 640px) {
     .wrapper {
         display: flex;
         flex-direction: row;
@@ -298,4 +304,19 @@
         height: 100%;
     }
 
+
+
+}
+@media only screen and (max-width: 640px){
+        .two-container {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+    
+    }
+    .body{
+        font-family: none;
+    }
 }
