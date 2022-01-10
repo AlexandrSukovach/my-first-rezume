@@ -282,6 +282,10 @@
     background-color: antiquewhite;
 }
 
+.compani_1{
+    margin-bottom: 20px;
+}
+
 @media only screen and (min-width:640px) {
     .wrapper {
         display: flex;
